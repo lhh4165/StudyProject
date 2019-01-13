@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.study.sql.dao.member">
+
+	
+	<select id="memberlist" resultType="com.study.sql.dto.memberinfo">
+		select member_IDX,member_id,member_pw,member_grade
+		from member_info
+	</select>
+	
+	<insert id="memberjoin">
+		insert into member_info (member_id, member_pw)
+		values(#{param1},#{param2})
+	</insert>
+
+</mapper>
