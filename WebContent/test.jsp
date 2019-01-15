@@ -7,6 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-	HELLO TEST GIT!
+	HELLO TEST GIT! 
+	
+	test
+	
+	master change and new branch check!
 </body>
 </html>
