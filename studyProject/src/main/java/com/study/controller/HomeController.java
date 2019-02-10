@@ -27,6 +27,8 @@ public class HomeController {
 		member mem = sqlSession.getMapper(member.class);
 		ArrayList<memberinfo> infoaddAttribute = mem.memberlist();
 				
+		
+		System.out.println("변경 확인");
 		m.addAttribute("info", infoaddAttribute);
 		return "main/Main";
 	}
