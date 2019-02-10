@@ -51,7 +51,7 @@
 					<div class="panel-heading">
 						<h2 class="panel-title">
 							<span class="glyphicon glyphicon-panel"></span>이곳은
-							main.jsp입니다ggg.
+							main.jsp입니다.
 						</h2>
 					</div>
 					<div class="panel-body">
