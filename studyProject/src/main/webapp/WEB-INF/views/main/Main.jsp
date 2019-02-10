@@ -12,9 +12,7 @@
 	href="${pageContext.request.contextPath}/resources/css/bootstrap.min.css"
 	rel="stylesheet">
 <script src="https://code.jquery.com/jquery-3.1.1.js?ver=1"></script>
-<script
-	src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
-
+<script src="${pageContext.request.contextPath}/resources/js/bootstrap.min.js"></script>
 <script>
 	function mjoin() {
 		memberjoin.submit();
